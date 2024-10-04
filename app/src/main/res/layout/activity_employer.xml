@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del Trabajo -->
+    <EditText
+        android:id="@+id/jobTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título del Trabajo"
+        android:inputType="text" />
+
+    <!-- Descripción del Trabajo -->
+    <EditText
+        android:id="@+id/jobDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <!-- Requisitos -->
+    <EditText
+        android:id="@+id/jobRequirementsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Requisitos"
+        android:inputType="textMultiLine"
+        android:minLines="2" />
+
+    <!-- Salario -->
+    <EditText
+        android:id="@+id/jobSalaryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salario"
+        android:inputType="numberDecimal" />
+
+    <!-- Botón para Publicar Trabajo -->
+    <Button
+        android:id="@+id/postJobButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publicar Trabajo" />
+
+</LinearLayout>

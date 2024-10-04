@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153173448206",
+    "project_id": "workfast-d0d7a",
+    "storage_bucket": "workfast-d0d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153173448206:android:5aa0526f61f5a7303a8e5f",
+        "android_client_info": {
+          "package_name": "com.example.workfast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAObRRZUriGQh8UTJi5WUpRbs2Gm6tD-K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

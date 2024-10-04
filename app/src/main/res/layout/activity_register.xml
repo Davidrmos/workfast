@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/userTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu tipo de usuario:"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+
+    <!-- Nombre -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress" />
+
+    <!-- Contraseña -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <!-- Selección del Rol -->
+    <RadioGroup
+        android:id="@+id/roleRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioEmployer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empleador" />
+
+        <RadioButton
+            android:id="@+id/radioEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empleado" />
+    </RadioGroup>
+
+    <!-- Empresa (solo para empleadores) -->
+    <EditText
+        android:id="@+id/companyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Empresa"
+        android:visibility="gone"
+        android:inputType="text" />
+
+    <!-- Habilidades (solo para empleados) -->
+    <EditText
+        android:id="@+id/skillsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habilidades"
+        android:visibility="gone"
+        android:inputType="text" />
+
+    <!-- Botón de Registro -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse" />
+</LinearLayout>

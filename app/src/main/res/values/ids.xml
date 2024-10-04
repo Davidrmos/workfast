@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="employeeRadioButton" type="id" />
+    <item name="employerRadioButton" type="id" />
+    <item name="nameEditText" type="id" />
+    <item name="companyEditText" type="id" />
+    <item name="skillsEditText" type="id" />
+    <item name="userTypeRadioGroup" type="id" />
+    <item name="registerButton" type="id" />
+</resources>
